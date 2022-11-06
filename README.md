@@ -12,10 +12,10 @@ An overview of different types of SQL injecitons
 
 <h2>Subverting Application Logic</h2>
 
-- <b>Adding '-- to the end of a username will cause the password to be disregarded
--<b>The query will then return the account of the username and logs the attacker in as them<b>
+- <b>Adding '-- to the end of a username will cause the password to be disregarded<b>
+- <b>The query will then return the account of the username and logs the attacker in as them<b>
 
-<h2>Retrieving Data from other Database Tables
+<h2>Retrieving Data from other Database Tables</h2>
 
 - <b>UNION : Keyword in SQL which lets you execute an additionall SELECT query and appends results to original<b>
 - <b>
